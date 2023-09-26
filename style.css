@@ -235,14 +235,6 @@ html, body {
     overflow: scroll;
   }
 
-  .elemento{
-    flex:1 0 auto;
-    margin: 0% 50px;
-    width: 500px;
-    height: 700px;
-    background-color: #bb6f0e;
-  }
-
   #baraka{
     background-image: url(assets/baraka.jpg);
     flex:1 0 auto;
@@ -251,42 +243,42 @@ html, body {
     height: 700px;
     background-position: center;
     background-color: #ffffff;
-    background-size: 400px 600px;
+    background-size: 450px 600px;
     background-repeat: no-repeat;
   }
 
   #scorpion{
-    background-image: url(assets/scorpion2.jpg);
+    background-image: url(assets/scorpion3.png);
     flex:1 0 auto;
     margin: 0% 50px;
     width: 500px;
     height: 700px;
     background-position: center;
     background-color: #ffffff;
-    background-size: 400px 600px;
+    background-size: 270px 600px;
     background-repeat: no-repeat;
   }
   #liukang{
-    background-image: url(assets/aaaa.avif);
+    background-image: url(assets/liu.webp);
     flex:1 0 auto;
     margin: 0% 50px;
     width: 500px;
     height: 700px;
     background-position: center;
     background-color: #ffffff;
-    background-size: 400px 600px;
+    background-size: 320px 600px;
     background-repeat: no-repeat;
   }
 
   #kitana{
-    background-image: url(assets/kitanaa.png);
+    background-image: url(assets/kitanita2.png);
     flex:1 0 auto;
     margin: 0% 50px;
     width: 500px;
     height: 700px;
     background-position: 30px;
     background-color: #ffffff;
-    background-size: 400px 600px;
+    background-size: 350px 600px;
     background-repeat: no-repeat;
   }
 
@@ -325,12 +317,118 @@ html, body {
     background-repeat: no-repeat;
   }
 
+  #sindel{
+    background-image: url(assets/sindel.png);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: center ;
+    background-color: #ffffff;
+    background-size: 240px 600px;
+    background-repeat: no-repeat;
+  }
 
+  #smoke{
+    background-image: url(assets/smoki.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 130px;
+    background-color: #ffffff;
+    background-size: 320px 570px;
+    background-repeat: no-repeat;
+  }
+
+  #jax{
+    background-image: url(assets/jax2.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 90px;
+    background-color: #ffffff;
+    background-size: 275px 610px;
+    background-repeat: no-repeat;
+  }
+
+  #sonya{
+    background-image: url(assets/sonya1.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 95px;
+    background-color: #ffffff;
+    background-size: 400px 600px;
+    background-repeat: no-repeat;
+  }
+
+  #jc{
+    background-image: url(assets/jc.jpeg);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: center;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #kano{
+    background-image: url(assets/kano4.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: center;
+    background-color: #ffffff;
+    background-size: 290px 600px;
+    background-repeat: no-repeat;
+  }
+
+  #kabal{
+    background-image: url(assets/kabal.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: center;
+    background-color: #ffffff;
+    background-size: 350px 600px;
+    background-repeat: no-repeat;
+  }
+
+  #raiden{
+    background-image: url(assets/raiden3.png);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: center;
+    background-color: #ffffff;
+    background-size: 350px 600px;
+    background-repeat: no-repeat;
+  }
+
+  #sz{
+    background-image: url(assets/sz.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: center;
+    background-color: #ffffff;
+    background-size: 250px 600px;
+    background-repeat: no-repeat;
+  }
   
   div {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Yellowtail', cursive;
     text-align: center;
     font-size: 40px;
-    color: #000000;
-    text-shadow: 2px 2px 2px #a7703e;
+    color: #202020;
+    text-shadow: 1px 1px 1px #000000;
   }
