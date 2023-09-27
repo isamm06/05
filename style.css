@@ -241,10 +241,15 @@ html, body {
     margin: 0% 50px;
     width: 500px;
     height: 700px;
-    background-position: center;
+    background-position: 10px;
     background-color: #ffffff;
     background-size: 450px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #baraka:hover{
+    transform: scale(1.2);
   }
 
   #scorpion{
@@ -257,6 +262,12 @@ html, body {
     background-color: #ffffff;
     background-size: 270px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+
+  #scorpion:hover{
+    transform: scale(1.2);
   }
   #liukang{
     background-image: url(assets/liu.webp);
@@ -268,6 +279,11 @@ html, body {
     background-color: #ffffff;
     background-size: 320px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #liukang:hover{
+    transform: scale(1.2);
   }
 
   #kitana{
@@ -280,6 +296,11 @@ html, body {
     background-color: #ffffff;
     background-size: 350px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #kitana:hover{
+    transform: scale(1.2);
   }
 
   #jade{
@@ -292,6 +313,11 @@ html, body {
     background-color: #ffffff;
     background-size: 400px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #jade:hover{
+    transform: scale(1.2);
   }
   #mileena{
     background-image: url(assets/mili.png);
@@ -303,6 +329,11 @@ html, body {
     background-color: #ffffff;
     background-size: 300px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #mileena:hover{
+    transform: scale(1.2);
   }
 
   #shao{
@@ -315,6 +346,11 @@ html, body {
     background-color: #ffffff;
     background-size: 400px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #shao:hover{
+    transform: scale(1.2);
   }
 
   #sindel{
@@ -327,6 +363,11 @@ html, body {
     background-color: #ffffff;
     background-size: 240px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #sindel:hover{
+    transform: scale(1.2);
   }
 
   #smoke{
@@ -339,6 +380,11 @@ html, body {
     background-color: #ffffff;
     background-size: 320px 570px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #smoke:hover{
+    transform: scale(1.2);
   }
 
   #jax{
@@ -351,6 +397,11 @@ html, body {
     background-color: #ffffff;
     background-size: 275px 610px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #jax:hover{
+    transform: scale(1.2);
   }
 
   #sonya{
@@ -363,18 +414,28 @@ html, body {
     background-color: #ffffff;
     background-size: 400px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #sonya:hover{
+    transform: scale(1.2);
   }
 
   #jc{
-    background-image: url(assets/jc.jpeg);
+    background-image: url(assets/jc1.webp);
     flex:1 0 auto;
     margin: 0% 50px;
     width: 500px;
     height: 700px;
     background-position: center;
     background-color: #ffffff;
-    background-size: cover;
+    background-size: 600px 640px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #jc:hover{
+    transform: scale(1.2);
   }
 
   #kano{
@@ -387,18 +448,28 @@ html, body {
     background-color: #ffffff;
     background-size: 290px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #kano:hover{
+    transform: scale(1.2);
   }
 
   #kabal{
-    background-image: url(assets/kabal.webp);
+    background-image: url(assets/kabalito.webp);
     flex:1 0 auto;
     margin: 0% 50px;
     width: 500px;
     height: 700px;
-    background-position: center;
+    background-position: 80px;
     background-color: #ffffff;
-    background-size: 350px 600px;
+    background-size: 400px 650px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #kabal:hover{
+    transform: scale(1.2);
   }
 
   #raiden{
@@ -409,10 +480,14 @@ html, body {
     height: 700px;
     background-position: center;
     background-color: #ffffff;
-    background-size: 350px 600px;
+    background-size: 300px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
   }
-
+  #raiden:hover{
+    transform: scale(1.2);
+  }
   #sz{
     background-image: url(assets/sz.webp);
     flex:1 0 auto;
@@ -423,8 +498,134 @@ html, body {
     background-color: #ffffff;
     background-size: 250px 600px;
     background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+    opacity: 100%;
+  }
+
+  #sz:hover{
+    transform: scale(1.2);
+    opacity: 0%;
+  }
+
+  #reptile{
+    background-image: url(assets/reptil.png);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 95px;
+    background-color: #ffffff;
+    background-size: 350px 600px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #reptile:hover{
+    transform: scale(1.2);
+  }
+
+  #kenshi{
+    background-image: url(assets/kenshicito.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 60px;
+    background-color: #ffffff;
+    background-size: 350px 600px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #kenshi:hover{
+    transform: scale(1.2);
   }
   
+  #qc{
+    background-image: url(assets/quanchi.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 125px;
+    background-color: #ffffff;
+    background-size: 250px 600px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #qc:hover{
+    transform: scale(1.2);
+  }
+
+  #st{
+    background-image: url(assets/st.webp);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 65px;
+    background-color: #ffffff;
+    background-size: 400px 700px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #st:hover{
+    transform: scale(1.2);
+  }
+
+  #ermac{
+    background-image: url(assets/ermi.png);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 65px;
+    background-color: #ffffff;
+    background-size: 400px 600px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #ermac:hover{
+    transform: scale(1.2);
+  }
+  #noob{
+    background-image: url(assets/jajanub.png);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 65px;
+    background-color: #ffffff;
+    background-size: 400px 600px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #noob:hover{
+    transform: scale(1.2);
+  }
+
+  #sc{
+    background-image: url(assets/sc.png);
+    flex:1 0 auto;
+    margin: 0% 50px;
+    width: 500px;
+    height: 700px;
+    background-position: 65px;
+    background-color: #ffffff;
+    background-size: 350px 610px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    object-fit: cover;
+  }
+  #sc:hover{
+    transform: scale(1.2);
+  }
+
   div {
     font-family: 'Yellowtail', cursive;
     text-align: center;
@@ -432,3 +633,15 @@ html, body {
     color: #202020;
     text-shadow: 1px 1px 1px #000000;
   }
+
+  p{
+  visibility: hidden;
+  background-size: contain;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap;
+  }
+
+  
+ 
+  
